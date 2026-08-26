@@ -1,6 +1,7 @@
 name: Step 3 # Dependabot Security Updates
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
